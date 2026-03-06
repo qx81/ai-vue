@@ -56,7 +56,7 @@
         <div class="tags-content" v-if="article.tagArray && article.tagArray.length > 0">
           <h4 class="tags-title">相关标签</h4>
           <div class="tags-list">
-            <el-tag v-for="tag in article.tagArray" :key="tag.id" size="small" type="info" effec="plain">
+            <el-tag v-for="tag in article.tagArray" :key="tag.id" size="small" type="primary" effec="plain">
               {{ tag }}
             </el-tag>
           </div>
